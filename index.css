@@ -9,22 +9,26 @@ body{
 
 .container{
     background-color: #1f2937;
-    max-width: 100%;
-    padding-top: 22px;
+    width: 100%;
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
 }
 
 #naruto{
-    width: 150px; 
+    width: 120px; 
     display: flex;
     flex-shrink: 0;
 }
 
 .web{
-    font-size: 48px;
-    font-weight: bolder;
+    font-size: 30px;
+    font-weight: bold;
     color: #f9faf8;
+}
+
+.website{
+    font-size: 15px;
 }
 
 button{
@@ -43,7 +47,7 @@ button{
 }
 
 .nar3{
-    padding-left: 190px;
+    padding-left: 160px;
 }
 
 
@@ -52,13 +56,19 @@ button{
     padding-bottom: 60px;
 }
 
-a{
-    text-decoration: none;
-    font-weight: bold;   
+.nar1{
+    padding-left: 10px;
 }
 
-a:hover{
+.link li a{
+    text-decoration: none;
+    font-weight: bold; 
+   
+}
+
+link li:hover{
     color: greenyellow;
+    background-color: #f66e38;
 }
 
 ul{
@@ -71,7 +81,7 @@ ul{
 }
 
 #naaa1{
-    width: 450px;
+    width: 350px;
     padding-top: 80px;
     height: 250px;
 } 
@@ -177,3 +187,4 @@ ul{
     padding: 50px;
     font-size: 22px;
 }
+ 
